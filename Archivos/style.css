@@ -9,6 +9,10 @@
     font-family: inconsolata;
     src: url(./Fuentes/Inconsolata-VariableFont_wdth\,wght.ttf);
 }
+@font-face {
+    font-family: oswald;
+    src: url(./Fuentes/Oswald-VariableFont_wght.ttf);
+}
 
 .encabezado_1_logo {
     display: none;
@@ -75,6 +79,96 @@ header section p {
         display: flex;
     }
     
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 8rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-evenly;
+    
+}
+
+.opciones {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    gap: 3rem;
+    padding: 3rem;
+}
+
+.m_h_ñ {
+    list-style: none;
+
+}
+
+.m_h_ñ_a {
+    text-decoration: none;
+    font-family: oswald;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.logo {
+    height: 6rem;
+}
+
+
+
+#buscador {
+    display: flex;
+    width: 30%;
+    border-radius: 20px;
+    background-color: #ebe6df;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+    
+}
+
+#buscador input {
+    outline: none;
+    background-color: transparent;
+    font-weight: bolder;
+    width: 80%;
+    padding-left: 1rem;
+    height: 2rem;
+    border: none;
+
+}
+
+.lupa {
+    width: 1.5rem;
+}
+.lupa_media {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .m_h_ñ_a {
+        font-size: 1rem;
+    }
+    .opciones {
+        gap: 2rem;
+        padding: 2rem;
+    }
+}
+@media (max-width:520px) {
+    #buscador {
+        display: none;
+    }
+    .lupa_media {
+        display: block;
+        margin-right: 2rem;
+    }
+}
+@media (max-width:375px) {
+    .logo {
+        display: none;
+    }
 }
 
 
