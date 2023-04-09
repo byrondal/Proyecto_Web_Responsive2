@@ -5,6 +5,11 @@
 
 }
 
+@font-face {
+    font-family: inconsolata;
+    src: url();
+}
+
 header {
     background-color: black;
     display: flex;
@@ -20,5 +25,11 @@ header section p {
     display: flex;
     flex: auto;
 
+}
+
+section ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }
 
