@@ -7,29 +7,60 @@
 
 @font-face {
     font-family: inconsolata;
-    src: url();
+    src: url(./Fuentes/Inconsolata-VariableFont_wdth\,wght.ttf);
 }
 
-header {
+.encabezado_1 {
     background-color: black;
     display: flex;
     list-style: none;
     flex-direction: row;
     justify-content: space-around;
-    padding: 1%;
+    padding: 6px;
     width: 100%;
+    height: 3rem;
+    align-items: center;
+    gap: 1rem;
 }
 
 header section p {
     color: azure;
     display: flex;
     flex: auto;
-
+    font-family: inconsolata;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin-left: 3rem;
 }
 
-section ul {
+.iconos {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    margin-right: 2rem;
+    
 }
+
+@media (max-width:768px) {
+    header section p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:375px) {
+    header section p {
+        display: none;
+    }
+    .iconos {
+        height: 3px;
+        align-items: center;
+        display: flex;
+        margin-right: 0;
+
+    }
+    .encabezado_1 {
+        justify-content: right;
+    }
+}
+
 
