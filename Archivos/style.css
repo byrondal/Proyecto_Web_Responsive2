@@ -10,6 +10,10 @@
     src: url(./Fuentes/Inconsolata-VariableFont_wdth\,wght.ttf);
 }
 
+.encabezado_1_logo {
+    display: none;
+}
+
 .encabezado_1 {
     background-color: black;
     display: flex;
@@ -45,6 +49,9 @@ header section p {
     header section p {
         font-size: 0.8rem;
     }
+    .encabezado_1_logo {
+        display: none;
+    }
 }
 
 @media (max-width:375px) {
@@ -59,8 +66,15 @@ header section p {
 
     }
     .encabezado_1 {
-        justify-content: right;
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+   
     }
+    .encabezado_1_logo {
+        display: flex;
+    }
+    
 }
 
 
