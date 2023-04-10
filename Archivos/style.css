@@ -182,7 +182,7 @@ header section p {
 
 .creatividad {
     display: flex;
-    width: 70rem;
+    width: 50%;
     height: 30rem;
 
 }
@@ -197,10 +197,94 @@ header section p {
 
 .foto_carrusel:hover {
     cursor: crosshair;
-    width: 30rem;
+    width: 50%;
     opacity: 1;
     filter: contrast(120%);
 }
+
+.texto_creatividad {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1.5%;
+    width: 50%;
+}
+
+.h1 {
+    font-family: oswald;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: azure;
+}
+
+.h2_1 {
+    font-family: inconsolata;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.h2_2 {
+    font-family: inconsolata;
+    font-style: italic;
+    font-size: 1.5rem;
+
+}
+
+.iconos_creatividad {
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+    justify-content: center;  
+}
+
+@media (max-width:768px) {
+    .h1 {
+        font-size: 1.5rem;
+    }
+    .h2_1 {
+        font-size: 1rem;
+    }
+    .h2_2 {
+        font-size: 1rem;
+    }
+    .iconos_creatividad {
+        gap:1rem;
+    }
+    .foto_carrusel:hover {
+        cursor: crosshair;
+        width: 50%;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+}   
+
+@media (max-width:600px) {
+
+
+    .fondo_creatividad {
+        background-color: darkorange;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .creatividad {
+        display: flex;
+        width: 100%;
+        height: 30rem;
+    
+    }
+    .texto_creatividad {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 1.5%;
+        width: 100%;
+        gap: 2rem;
+    }
+
+}
+
+
 
 
 

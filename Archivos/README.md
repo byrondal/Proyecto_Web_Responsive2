@@ -8,3 +8,6 @@ de moda en la actualidad.
 
 -09/04/2023: Inicio y carga de archivos en VSCode. Header terminado con media queries incluidas para móvil y tablet.
 
+-10/04/2023: Empezamos con el <main>. Creatividad terminada (carrusel con fotos) para todas las media queries.
+
+
