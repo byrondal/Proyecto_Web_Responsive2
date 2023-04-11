@@ -10,4 +10,4 @@ de moda en la actualidad.
 
 -10/04/2023: Empezamos con el <main>. Creatividad terminada (carrusel con fotos) para todas las media queries.
 
-
+-11/04/2023: Los 12 productos están actualizados y adaptados con media queries. El footer esta esquematizado en HTML pero no en CSS.
