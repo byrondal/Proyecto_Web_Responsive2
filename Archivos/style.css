@@ -462,6 +462,7 @@ form {
     gap: 1rem;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 fieldset {
     border: none;
@@ -500,10 +501,49 @@ footer section form p {
 }
 
 @media (max-width:768px) {
-    footer  {
-        
+    .policy {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        font-family: inconsolata;
+        font-size: 0.75rem;
+    }
+
+    .app_text {
+        font-family: inconsolata;
+        font-size: 0.75rem;
+    }
+    .inspire_p {
+        font-family: inconsolata;
+        font-size: 0.75rem;
+    }
+    .rrss {
+        height: 2rem;
+    }
+    footer section h1 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .footer_1_titles {
+        height: 15rem;
     }
 }
+
+@media (max-width:600px) {
+    .newsletter_section {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(250, 235, 215, 0.556);
+        font-family: inconsolata;
+        height: 34rem;
+        align-items: center;
+        gap: 2rem;
+        justify-content: center;
+        padding: 1rem;
+     
+    }
+}
+
 
 
 
