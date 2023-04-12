@@ -383,5 +383,18 @@ footer {
 
 
 
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app_icon_1 {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+
 
 
