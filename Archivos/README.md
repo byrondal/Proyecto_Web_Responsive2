@@ -14,3 +14,4 @@ de moda en la actualidad.
 
 -12/04/2023: Web terminada a falta de las media queries del footer.
 
+-13/04/2023: Web terminada con todas las media queries y las transformaciones de texto. Entregado proyecto.
